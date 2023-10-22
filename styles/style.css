@@ -1,0 +1,98 @@
+.btn{
+    width: 50%;
+    height: 50%;
+    
+}
+.btn:hover{
+    background-color: rebeccapurple;
+    transition: 1s;
+}
+
+.containerMain{
+    width: 100px;
+    height: 100px;
+     position: relative;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: -5px;
+    width: 250px;
+    height: 250px;
+   
+    margin: 30%;
+    
+    display: block;
+}
+.img{
+    width: 350px;
+    height: 250px;
+    margin: 15px;
+  
+    transition: 1s;
+    border-color: black;
+}
+  .img:hover {
+    transform:scale(1.1);
+}
+.ContainerCenter{
+    background-color: #ffffff;
+    text-align: center;
+    opacity: 50%;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+     position: relative;
+    top: -15px; /* ajustar los valores para mover la imagen */
+    left: -5px;
+    width: 250px;
+    height: 250px;
+   
+    margin: 30%;
+    
+    display: block;
+}
+.imagen{
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+    display:inline-block;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+.card-size{
+    position: relative;
+    display: flex;
+   
+    justify-content: center;
+  
+}
+.card-size-2{
+    position: relative;
+    display: flex;
+   
+    justify-content: center;
+  
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.contiene{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-style: italic;
+    font-size: 55px;
+    background-color: black;
+    opacity: 45%;
+    font-size: 155%;
+    color: white;
+    background-size: cover;
+}
